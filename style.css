@@ -171,6 +171,18 @@ text-align: center;
 			z-index: -1;
 			transform: rotate(10deg);
 			border-top-left-radius:35px ;
-			border-bottom-right-radius:35px ;
+			border-bottom-right-radius:35px;
+}
 
+
+.box-container {
+	display: flex;
+	justify-content: center;
+}
+.box-container .box img {
+	height: 200px;
+}
+
+.box-container .box {
+	padding: 1rem;
 }
